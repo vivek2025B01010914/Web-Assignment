@@ -1,0 +1,44 @@
+.outer{
+    height:520px;
+    width: 190px;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    margin:5px 5px 0px 5px;
+    border-radius: 30px;
+}
+#red{
+    display: block;
+    height: 160px;
+    width: 160px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px black solid;
+}
+#yellow{
+display: block;
+height: 160px;
+    width: 160px;
+    background-color: yellow;
+      border-radius: 50%;
+      margin: 10px;
+      border: 1px black solid;
+}
+#green{
+    display: block;
+    height: 160px;
+    width: 160px;
+    background-color: green;
+      border-radius: 50%;
+      margin: 10px;
+       border: 1px black solid;
+}
+.lower{
+    height: 300px;
+    width: 90px;
+    background-color: black;
+    border: 1px black solid;
+    border-radius: 5px;
+
+}
