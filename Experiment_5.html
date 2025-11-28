@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body style="background-color: beige;">
+    <form action="#" method="get" style="text-align: center" >
+        <h1>Student Registration Form</h1>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required style="background-color: burlywood;">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required style="background-color: burlywood;">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required style="background-color: burlywood;">
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="male" value="male"  >
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="female" value="female" >
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="other" value="other">
+        <label for="other">Other</label>
+        <br><br>
+        <label for="course">Select Course:</label>
+        <select name="course" id="course" required style="background-color: burlywood;">
+            <option value="B.Tech.">B.Tech.</option>
+            <option value="B.Pharma">B.Pharma</option>
+            <option value="B.A.">B.A.</option>
+            <option value="B.S.">B.S.</option>
+            <option value="Bse">Bse</option>
+            <option value="M.A.">M.A.</option>
+            <option value="B.COM.">B.COM.</option>
+        </select>
+        <BR></BR>
+        <label for="phone">Contact No.:</label>
+        <input type="tel" id="phone" name="phone" required style="background-color: burlywood;">
+        <br><br>
+        <label for="address">Address:</label>
+        <br>
+        <textarea name="address" id="address" rows="4" cols="40" required style="background-color: burlywood;"></textarea>
+        <br><br>
+        <button type="submit" style="color: red; background-color: blue;">Register</button>
+        <button type="reset" style="color: red; background-color: blue;">Clear</button>
+        <p>© 2025 Student Registration Portal</p>
+    </form>
+</body>
+</html>
